@@ -28,7 +28,7 @@ jobs:
       uses: ApyGuard/apyguard_openapi_analysis@main
       with:
         # Change this to your OpenAPI file path
-        file: test-swagger.json
+        file: swagger.json
         output_format: json
         
     - name: Display Results
